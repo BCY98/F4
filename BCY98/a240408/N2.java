@@ -9,10 +9,10 @@ public class N2 {
 
         int index = 0;
         for (int i = l; i <= r; i++) {
-            int row = (int) (i / n); // 행 계산
-            int col = (int) (i % n); // 열 계산
+            int row = (int) (i / n);
+            int col = (int) (i % n); 
 
-            // 주어진 행과 열에 해당하는 값 구하기
+            
             answer[index++] = Math.max(row, col) + 1;
         }
         return answer;
