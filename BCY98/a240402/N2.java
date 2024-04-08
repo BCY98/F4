@@ -15,7 +15,6 @@ public class N2 {
             // 주어진 행과 열에 해당하는 값 구하기
             answer[index++] = Math.max(row, col) + 1;
         }
-
         return answer;
     }
 
